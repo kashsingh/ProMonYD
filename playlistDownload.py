@@ -59,7 +59,7 @@ class download_playlist_thread(QThread):
             'playlistend':self.end_no,
             #'restrictfilenames':True,
             'outtmpl':self.out_dir+"\\%(title)s.%(ext)s",
-            'format': "bestvideo",
+            'format': "best",
             'noplaylist' : False,
             'progress_hooks': [self.my_hook],
         }

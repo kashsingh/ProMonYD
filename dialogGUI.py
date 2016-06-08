@@ -30,7 +30,7 @@ class Ui_Dialog(object):
         Dialog.setObjectName(_fromUtf8("Dialog"))
         Dialog.resize(655, 412)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(_fromUtf8("C:\Users\Alxetraz\Documents\Canopy\Python Advanced\youtube-downloader\icon\PMYD.ico")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(_fromUtf8(".\icon\PMYD.ico")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Dialog.setWindowIcon(icon)
         self.pushButtonDownload = QtGui.QPushButton(Dialog)
         self.pushButtonDownload.setGeometry(QtCore.QRect(160, 360, 301, 41))
