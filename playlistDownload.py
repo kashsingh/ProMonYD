@@ -49,9 +49,6 @@ class download_playlist_thread(QThread):
                 self.emit(SIGNAL('progress_value(QString)'), percent_download)
 
 
-        if d['status'] == 'finished':
-            self.emit(SIGNAL('finished()'), )
-
     def downloadPlaylist(self):
 
         ydl_opts = {
